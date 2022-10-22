@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'base.html' %}
+{% block content %}
+<a href="/">Home</a>
+<form method="post" action="/selected_archiver">
+     <fieldset>
+         <legend>Input Url</legend>
+         <input type="text" name="url_text"> <br /><br /><br />
+    <legend>Select month/year</legend>
+    <input type="date" name="date_select"><br /><br />
+
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+{% endblock %}
