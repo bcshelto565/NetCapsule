@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<a href="/" style="color: white; justify-content: center; display: flex; font-size: 50px; margin: 20px;">Home</a>
+<form method="post" action="/selected_archiver">
+    <fieldset style="color: white; justify-content: center; display: flex; margin: 7.5px;">
+    <div style="color: white; justify-content: center; display: flex; font-size: 25px; margin: 7.5px;">Input Url</div>
+    <input type="text" name="url_text"> <br /><br />
+    <div style="color: white; justify-content: center; display: flex; font-size: 25px; margin: 7.5px;">Select month/year</div>
+    <input type="date" name="date_select"><br /><br />
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+{% endblock %}
