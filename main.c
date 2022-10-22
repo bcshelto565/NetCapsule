@@ -75,6 +75,3 @@ char* read_event(int year, char* event_name){
     fclose(f);
     return buffer;
 }
-int main() {
-
-}

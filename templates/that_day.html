@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<a href="/">Home</a>
+<form method="post" action="/that_day_data">
+     <fieldset>
+    <legend>Select month/year</legend>
+
+    <input type="date" name="date_select"><br /><br />
+
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+{% endblock %}

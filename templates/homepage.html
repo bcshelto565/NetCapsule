@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NetCapsule</title>
+</head>
+<body>
+
+<button type="button" name="myButton">
+	Today in history
+</button>
+
+{% extends 'bootstrap/base.html' %}
+{% block scripts %}
+  {{ super() }}
+  {{ datepicker.loader() }} {# to load jQuery-ui #}
+  {{ datepicker.picker(id=".dp") }}
+{% endblock %}
+{% block content %}
+  <form class="verticalform">
+    <input type="text" class="form-control dp" />
+  </form>
+{% endblock %}
+
+</body>
+</html>

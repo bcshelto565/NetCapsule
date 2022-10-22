@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+<a href="/">Home</a>
+
+{% set datee = payload[0]%}
+{% set data = payload[1]%}
+<h2>On {{datee['dd']}} of {{datee['mm']}}</h2>
+{% for e in data %}
+
+
+<table>
+    <tr data-toggle="toggle"><th>{{e}}</th></tr>
+    <tbody class="hideTr">
+    {% for info in data[e] %}
+
+    <tr><td>Year: {{info['year']}}</td></tr>
+    <tr>
+        <td>Event: {{info["text"]}}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<p></p>
+<p></p>
+<p></p>
+{% endfor %}
+
+{% endblock %}
