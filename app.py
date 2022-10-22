@@ -1,6 +1,8 @@
+import json
 from collections import defaultdict
 
 import requests
+from bs4 import BeautifulSoup
 from flask import Flask, render_template, request
 import datetime
 from dateutil import parser
@@ -44,7 +46,8 @@ def select_date():
 def home():
     return render_template('index.html')
 
-def filter_data(year,data):
+
+def filter_data(year, data):
     filtered_data = defaultdict(list)
     for event in data:
         for i in range(len(data[event])):
@@ -52,9 +55,10 @@ def filter_data(year,data):
                 filtered_data['event'].append(data[event][i]['year'])
     return filtered_data
 
+
 def trim_data(data):
     for event in data:
-        data[event] = data[event][:min(len(data[event]),10)]
+        data[event] = data[event][:min(len(data[event]), 10)]
     return data
 
 
@@ -66,8 +70,29 @@ def day_data():
     data = trim_data(data)
     mm = select_date.strftime("%B")
     dd = select_date.strftime("%d")
-    pay_load = [{'mm':mm,'dd':dd}, data]
+    file_name = "root/snapshot/" + str(mm) + str(dd) + ".txt"
+    serial_data = json.dumps(data)
+    pay_load = [{'mm': mm, 'dd': dd}, data]
     return render_template("that_day_data.html", payload=pay_load)
+
+
+@app.route('/selected_archiver', methods=['GET', 'POST'])
+def archiver():
+    url_selected = request.form.get('url_text')
+    date_selected = parser.parse(request.form.get('date_select'))
+    url2 = f"https://web.archive.org/web/{date_selected}100101/{url_selected}"
+    page = requests.get(url2)  # pulls the url as a request.
+    soup = BeautifulSoup(page.text, "html.parser")  # uses beautiful soup to parse the "url" for only the html.parser
+    htmlfile = open("page.html", "w",
+                    encoding="utf-8")  # openning the output file // this is not gonna be the final version. Needs to be changed to output
+    stringed_page = str(soup)  # turns the soup object into a string to use for the writing to a file.
+    htmlfile.write(stringed_page)
+    return stringed_page
+
+
+@app.route('/archive')
+def select_for_archiver():
+    return render_template("select_arch.html")
 
 
 if __name__ == '__main__':
