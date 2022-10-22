@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
-<a href="/">Home</a>
+<a href="/" style="color: white; justify-content: center; display: flex; font-size: 50px; margin: 20px;">Home</a>
 
 {% set datee = payload[0]%}
 {% set data = payload[1]%}
@@ -8,9 +8,9 @@
 {% for e in data %}
 
 
-<table style="color: white; justify-content: center; display: flex; font-size: 25px;">
-    <tr data-toggle="toggle"><th>{{e}}</th></tr>
-    <tbody class="hideTr">
+<table style="color: black; justify-content: center; display: flex; font-size: 25px;">
+    <tr data-toggle="toggle" style="color: white;"><th>{{e}}</th></tr>
+    <tbody class="hideTr" style="color: white; justify-content: center; display: flex; font-size: 15px; font-family: 'Times New Roman', Times, serif;">
     {% for info in data[e] %}
 
     <tr><td>Year: {{info['year']}}</td></tr>
