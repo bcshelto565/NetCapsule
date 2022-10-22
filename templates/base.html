@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %} {% endblock %} - FlaskApp</title>
+        <style>
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+    -moz-border-radius: 5px !important;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+</style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript">
+	    $(document).ready(function () {
+	        debugger;
+	        $('.hideTr').slideUp(600);
+	     $('[data-toggle="toggle"]').click(function () {
+	        if ($(this).parents().next(".hideTr").is(':visible')) {
+	            $(this).parents().next('.hideTr').slideUp(600);
+	            $(".plusminus" + $(this).children().children().attr("id")).text('+');
+	           $(this).css('background-color', 'white');
+	            }
+	        else {
+	            $(this).parents().next('.hideTr').slideDown(600);
+	            $(".plusminus" + $(this).children().children().attr("id")).text('- ');
+	           $(this).css('background-color', '#c1eaff ');
+	        }
+	    });
+	    });
+	</script>
+</head>
+<body background="static/bg2.jpg">
+
+    <nav>
+        <a href="#">Archive Data</a>
+        <a href="/that_day">What happend on that day</a>
+    </nav>
+    <hr>
+    <div class="content">
+        {% block content %} {% endblock %}
+    </div>
+</body>
+</html>
