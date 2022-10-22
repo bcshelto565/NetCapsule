@@ -1,11 +1,13 @@
 import json
 from collections import defaultdict
-
+from ctypes import *
 import requests
 from bs4 import BeautifulSoup
 from flask import Flask, render_template, request
 import datetime
 from dateutil import parser
+
+
 
 app = Flask(__name__)
 
@@ -86,7 +88,9 @@ def archiver():
     htmlfile = open("page.html", "w",
                     encoding="utf-8")  # openning the output file // this is not gonna be the final version. Needs to be changed to output
     stringed_page = str(soup)  # turns the soup object into a string to use for the writing to a file.
-    htmlfile.write(stringed_page)
+    with open("./root/archive.txt","a") as fp:
+    	fp.write(stringed_page)
+    lib = CDLL('./main.so')
     return stringed_page
 
 
