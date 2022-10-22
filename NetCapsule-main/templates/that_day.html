@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block content %}
+<a href="/" style="color: white; justify-content: center; display: flex; font-size: 50px; margin: 20px;">Home</a>
+<form method="post" action="/that_day_data">
+     <fieldset>
+    <legend style="color: white; justify-content: center; display: flex;">Select month/year</legend>
+
+    <input style="justify-content: center; display: flex;" type="date" name="date_select"><br /><br />
+
+    <input type="submit" value="Submit"  style="justify-content: center; display: flex;">
+  </fieldset>
+</form>
+{% endblock %}
