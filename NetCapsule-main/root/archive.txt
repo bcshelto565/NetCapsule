@@ -500,4 +500,300 @@ playback timings (ms):
   CDXLines.iter: 30.861 (3)
   load_resource: 185.468
   PetaboxLoader3.resolve: 50.707
+--><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app220.us.archive.org';v.server_ms=227;archive_analytics.send_pageview({});});</script>
+<script charset="utf-8" src="/_static/js/bundle-playback.js?v=U25-Dms9" type="text/javascript"></script>
+<script charset="utf-8" src="/_static/js/wombat.js?v=UHAOicsW" type="text/javascript"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://geeksforgeeks.org:80/?","20090924045725","https://web.archive.org/","web","/_static/",
+	      "1253768245");
+</script>
+<link href="/_static/css/banner-styles.css?v=fantwOh2" rel="stylesheet" type="text/css"/>
+<link href="/_static/css/iconochive.css?v=qtvMKcIJ" rel="stylesheet" type="text/css"/>
+<!-- End Wayback Rewrite JS Include -->
+<meta content="Qq4cneB3rmao09eEEtLOJX2rw+5ZMdf8/CiGxO9IulU=" name="verify-v1"/>
+<meta content="79a87047956c2ff1" name="y_key"/>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="WordPress 2.8.1" name="generator">
+<title>Geeks for Geeks</title>
+<style media="screen" type="text/css">
+      	@import url('https://web.archive.org/web/20090924045725cs_/http://geeksforgeeks.org/wp-content/themes/minimoo/style.css');
+	</style>
+<link href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?feed=rss" rel="alternate" title="RSS 2.0" type="application/rss+xml"/>
+<link href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?feed=rss2" rel="alternate" title="RSS 0.92" type="application/rss+xml"/>
+<link href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?feed=atom" rel="alternate" title="Atom" type="application/rss+xml"/>
+<link href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?feed=comments-rss2" rel="alternate" title="RSS 2.0 comments feed" type="application/rss+xml"/>
+<link href="http://geeksforgeeks.org/xmlrpc.php" rel="pingback"/>
+<link href="https://web.archive.org/web/20090924045725im_/http://geeksforgeeks.org/wp-content/themes/minimoo/favicon.ico" rel="shortcut icon"/>
+<script src="https://web.archive.org/web/20090924045725js_/http://geeksforgeeks.org/wp-content/themes/minimoo/js/mootools_core.js" type="text/javascript"></script>
+<script src="https://web.archive.org/web/20090924045725js_/http://geeksforgeeks.org/wp-content/themes/minimoo/js/mootools_more.js" type="text/javascript"></script>
+<script type="text/javascript">
+		if (document.images) {
+			var preload_image = new Image(32,32); 
+			preload_image.src = "https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/wp-content/themes/minimoo/js/ajax-loader.gif";
+		}	
+		
+		var comments_per_page = 50;
+		var comment_order = 'desc';
+		var default_comments_page = 'newest';
+	</script>
+<script src="https://web.archive.org/web/20090924045725js_/http://geeksforgeeks.org/wp-content/themes/minimoo/js/main.js" type="text/javascript"></script>
+<link href="https://web.archive.org/web/20090924045725cs_/http://geeksforgeeks.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter/styles/shCore.css?ver=2.0.320" id="syntaxhighlighter-core-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://web.archive.org/web/20090924045725cs_/http://geeksforgeeks.org/wp-content/plugins/syntaxhighlighter/syntaxhighlighter/styles/shThemeDefault.css?ver=2.0.320" id="syntaxhighlighter-theme-default-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="http://geeksforgeeks.org/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/>
+<link href="http://geeksforgeeks.org/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/>
+<link href="http://geeksforgeeks.org" rel="index" title="Geeks for Geeks"/>
+<meta content="WordPress 2.8.1" name="generator"/>
+<!-- All in One SEO Pack 1.6.6.1 by Michael Torbert of Semper Fi Web Design[435,457] -->
+<meta content="multiple choice question,misc,linked lists,strings,output of programs" name="keywords"/>
+<link href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/" rel="canonical"/>
+<!-- /all in one seo pack -->
+<!-- knxdt bookmarks wordpress plugin v1.2 -->
+<link href="https://web.archive.org/web/20090924045725cs_/http://geeksforgeeks.org/wp-content/plugins/knxdt-bookmarks-wordpress-plugin/css/style.css" rel="stylesheet" type="text/css"/>
+<!-- /knxdt bookmarks wordpress plugin -->
+<!-- Wordpress Popular Posts v1.5.0 -->
+<link href="https://web.archive.org/web/20090924045725cs_/http://geeksforgeeks.org/wp-content/plugins/wordpress-popular-posts/style/wpp.css" media="screen" rel="stylesheet" type="text/css"/>
+<!-- Wordpress Popular Posts v1.5.0 -->
+<style type="text/css">.syntaxhighlighter { font-size: 12px !important; }</style>
+</meta></meta></head>
+<body>
+<div id="wrapper">
+<div class="blog-info">
+<h1 class="blog-title">
+<a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/" title="Geeks for Geeks">Geeks for Geeks</a>
+</h1>
+<div class="blog-description">
+</div>
+</div>
+<form action="/web/20090924045725/http://geeksforgeeks.org/index.php" id="searchform" method="get">
+<div>
+<input id="s" name="s" size="25" type="text" value="Start your search ..."/>
+</div>
+</form>
+<div class="clear"></div>
+<div id="menu">
+<ul>
+<li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/">Home</a></li>
+<li class="page_item page-item-941"><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?page_id=941">Ask a Question</a></li>
+<li class="page_item page-item-1313"><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?page_id=1313">Write for Geeks</a></li>
+<li class="page_item page-item-2"><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?page_id=2">About Us</a></li>
+</ul>
+<div class="rssfeed">
+<!--<a href="http://feeds.feedburner.com/limetouch" title="Subscribe to LimeTouch RSS Feed"><strong>Subscribe</strong></a>-->
+<a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?feed=rss2" title="Subscribe to Geeks for Geeks RSS Feed"><strong>Subscribe</strong></a>
+</div>
+<div class="clear"></div>
+</div>
+<div id="content">
+<div class="post" id="post">
+<div class="post-main" id="post-1937">
+<div class="post-info">
+<div class="post-title-info">
+<h2 class="post-title"><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1937" rel="bookmark" title="Permanent link to Database Management System | Set 1">Database Management System | Set 1</a></h2>
+<a class="commentslink" href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1937#respond" title="Comment on Database Management System | Set 1">Leave a comment</a> | Filed under <a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?cat=66" rel="category" title="View all posts in Multiple Choice Question">Multiple Choice Question</a> </div>
+<div class="post-date">September 23, 2009</div>
+<div class="clear"></div>
+</div> <!--end post info-->
+<div class="post-content">
+<p>Following questions have been asked in GATE exam.</p>
+<a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1937">Read More »</a>
+</div>
+</div> <!-- end post main-->
+<div class="tags">
+</div>
+<div class="post-main" id="post-1929">
+<div class="post-info">
+<div class="post-title-info">
+<h2 class="post-title"><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1929" rel="bookmark" title="Permanent link to Operating Systems | Set 3">Operating Systems | Set 3</a></h2>
+<a class="commentslink" href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1929#respond" title="Comment on Operating Systems | Set 3">Leave a comment</a> | Filed under <a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?cat=4" rel="category" title="View all posts in Misc">Misc</a> </div>
+<div class="post-date">September 21, 2009</div>
+<div class="clear"></div>
+</div> <!--end post info-->
+<div class="post-content">
+<p>Following questions have been asked in GATE CS exam.</p>
+<a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1929">Read More »</a>
+</div>
+</div> <!-- end post main-->
+<div class="tags">
+</div>
+<div class="post-main" id="post-1531">
+<div class="post-info">
+<div class="post-title-info">
+<h2 class="post-title"><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1531" rel="bookmark" title="Permanent link to Operating Systems | Set 2">Operating Systems | Set 2</a></h2>
+<a class="commentslink" href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1531#respond" title="Comment on Operating Systems | Set 2">Leave a comment</a> | Filed under <a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?cat=66" rel="category" title="View all posts in Multiple Choice Question">Multiple Choice Question</a> </div>
+<div class="post-date">September 18, 2009</div>
+<div class="clear"></div>
+</div> <!--end post info-->
+<div class="post-content">
+<p>Following questions have been asked in GATE CS exam.</p>
+<a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1531">Read More »</a>
+</div>
+</div> <!-- end post main-->
+<div class="tags">
+</div>
+<div class="post-main" id="post-1844">
+<div class="post-info">
+<div class="post-title-info">
+<h2 class="post-title"><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1844" rel="bookmark" title="Permanent link to Given a linked list which is sorted, how will you insert in sorted way">Given a linked list which is sorted, how will you insert in sorted way</a></h2>
+<a class="commentslink" href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1844#respond" title="Comment on Given a linked list which is sorted, how will you insert in sorted way">Leave a comment</a> | Filed under <a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?cat=8" rel="category" title="View all posts in Linked Lists">Linked Lists</a> </div>
+<div class="post-date">September 17, 2009</div>
+<div class="clear"></div>
+</div> <!--end post info-->
+<div class="post-content">
+<p>Algorithm:<br/>
+Let input linked list is sorted in increasing order.</p>
+<a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1844">Read More »</a>
+</div>
+</div> <!-- end post main-->
+<div class="tags">
+</div>
+<div class="post-main" id="post-1781">
+<div class="post-info">
+<div class="post-title-info">
+<h2 class="post-title"><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1781" rel="bookmark" title="Permanent link to Given a string, find its first non-repeating character">Given a string, find its first non-repeating character</a></h2>
+<a class="commentslink" href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1781#comments" title="Comment on Given a string, find its first non-repeating character">1 Comment</a> | Filed under <a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?cat=7" rel="category" title="View all posts in Strings">Strings</a> </div>
+<div class="post-date">September 16, 2009</div>
+<div class="clear"></div>
+</div> <!--end post info-->
+<div class="post-content">
+<p>Algorithm:</p>
+<p>1) Scan the string from left to right and construct the count array.<br/>
+2) Again, scan the string from left to right and check for counts, if<br/>
+you find an element who’s count is 1, return it.</p>
+<a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1781">Read More »</a>
+</div>
+</div> <!-- end post main-->
+<div class="tags">
+</div>
+<div class="post-main" id="post-1728">
+<div class="post-info">
+<div class="post-title-info">
+<h2 class="post-title"><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1728" rel="bookmark" title="Permanent link to Output of C Program | Set 7">Output of C Program | Set 7</a></h2>
+<a class="commentslink" href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1728#respond" title="Comment on Output of C Program | Set 7">Leave a comment</a> | Filed under <a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?cat=4" rel="category" title="View all posts in Misc">Misc</a> <a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?cat=5" rel="category" title="View all posts in Output of Programs">Output of Programs</a> </div>
+<div class="post-date">September 13, 2009</div>
+<div class="clear"></div>
+</div> <!--end post info-->
+<div class="post-content">
+<p>Predict the output of below programs</p>
+<a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1728">Read More »</a>
+</div>
+</div> <!-- end post main-->
+<div class="tags">
+</div>
+<div class="post-main" id="post-1661">
+<div class="post-info">
+<div class="post-title-info">
+<h2 class="post-title"><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1661" rel="bookmark" title="Permanent link to Automata Theory | Set 1">Automata Theory | Set 1</a></h2>
+<a class="commentslink" href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1661#respond" title="Comment on Automata Theory | Set 1">Leave a comment</a> | Filed under <a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?cat=66" rel="category" title="View all posts in Multiple Choice Question">Multiple Choice Question</a> </div>
+<div class="post-date">September 12, 2009</div>
+<div class="clear"></div>
+</div> <!--end post info-->
+<div class="post-content">
+<p>Following questions have been asked in GATE CS exam.</p>
+<a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1661">Read More »</a>
+</div>
+</div> <!-- end post main-->
+<div class="tags">
+</div>
+<div class="page-navi" id="page-navi">
+<span class="alignleft"><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?paged=2">- Older Posts -</a></span>
+<span class="alignright"></span>
+<div class="clear"></div>
+</div>
+</div> <!--end post-->
+</div> <!-- end content -->
+<ul id="sidebar">
+<li class="widget widget_categories" id="categories-384568211"><h2 class="widgettitle">Categories</h2>
+<ul>
+<li class="cat-item cat-item-3"><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?cat=3" title="Questions regarding Arrays">Arrays</a>
+</li>
+<li class="cat-item cat-item-18"><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?cat=18" title="View all posts filed under Articles">Articles</a>
+</li>
+<li class="cat-item cat-item-17"><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?cat=17" title="View all posts filed under Bit Magic">Bit Magic</a>
+</li>
+<li class="cat-item cat-item-14"><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?cat=14" title="View all posts filed under C Puzzles">C Puzzles</a>
+</li>
+<li class="cat-item cat-item-8"><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?cat=8" title="Linked List problems">Linked Lists</a>
+</li>
+<li class="cat-item cat-item-4"><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?cat=4" title="Miscellaneous">Misc</a>
+</li>
+<li class="cat-item cat-item-66"><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?cat=66" title="View all posts filed under Multiple Choice Question">Multiple Choice Question</a>
+</li>
+<li class="cat-item cat-item-5"><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?cat=5" title="View all posts filed under Output of Programs">Output of Programs</a>
+</li>
+<li class="cat-item cat-item-7"><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?cat=7" title="Questions related to strings">Strings</a>
+</li>
+<li class="cat-item cat-item-19"><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?cat=19" title="View all posts filed under Trees">Trees</a>
+</li>
+</ul>
+</li>
+<li class="widget posts" id="query-posts-3"><h2 class="widgettitle">Featured Posts</h2>
+<ul>
+<li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=112" rel="bookmark" title="Write a C function to detect loop in a linked list">Write a C function to detect loop in a linked list</a></li> <li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=753" rel="bookmark" title="Ugly Numbers">Ugly Numbers</a></li> <li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=730" rel="bookmark" title="How will you show memory representation of C variables?">How will you show memory representation of C variables?</a></li> <li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=592" rel="bookmark" title="Condition To Print “HelloWord”">Condition To Print “HelloWord”</a></li> <li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=576" rel="bookmark" title="Largest Sum Contiguous Subarray">Largest Sum Contiguous Subarray</a></li> <li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=511" rel="bookmark" title="Write an Efficient Method to Check if a Number is Multiple of 3">Write an Efficient Method to Check if a Number is Multiple of 3</a></li> <li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=484" rel="bookmark" title="Write a C program that, given a set A of n numbers and another number x, determines whether or not there exist two elements in S whose sum is exactly x">Write a C program that, given a set A of n numbers and another number x, determines whether or not there exist two elements in S whose sum is exactly x</a></li> </ul>
+</li>
+<li class="widget posts" id="query-posts-4"><h2 class="widgettitle">Tutorials</h2>
+<ul>
+<li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=887" rel="bookmark" title="Let’s experiment with Networking">Let’s experiment with Networking</a></li> <li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=840" rel="bookmark" title="Understanding “extern” keyword in C">Understanding “extern” keyword in C</a></li> <li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=801" rel="bookmark" title="Little and Big Endian Mystery">Little and Big Endian Mystery</a></li> <li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=618" rel="bookmark" title="Tree Traversals">Tree Traversals</a></li> <li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=5" rel="bookmark" title="What is Memory Leak?  How can we avoid?">What is Memory Leak?  How can we avoid?</a></li> </ul>
+</li>
+<li class="widget widget_popular_posts" id="popular-posts"><h2 class="widgettitle">Popular Posts</h2>
+<ul><!-- Wordpress Popular Posts Plugin v1.5.0 -->
+<li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=503" title="Majority Element"><span class="wpp-post-title">Majority Element</span></a> </li>
+<li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=527" title="Write a C program to reverse digits of a number"><span class="wpp-post-title">Write a C program to reverse digits of a number</span></a> </li>
+<li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=511" title="Write an Efficient Method to Check if a Number is Multiple of 3"><span class="wpp-post-title">Write an Efficient Method to Check if a Number is Multiple of 3</span></a> </li>
+<li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=618" title="Tree Traversals"><span class="wpp-post-title">Tree Traversals</span></a> </li>
+<li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=683" title="Check for Integer Overflow"><span class="wpp-post-title">Check for Integer Overflow</span></a> </li>
+<li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1029" title="Lowest Common Ancestor in a Binary Search Tree."><span class="wpp-post-title">Lowest Common Ancestor in a Binary Search Tree.</span></a> </li>
+<li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=475" title="Next Power of 2"><span class="wpp-post-title">Next Power of 2</span></a> </li>
+<li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=576" title="Largest Sum Contiguous Subarray"><span class="wpp-post-title">Largest Sum Contiguous Subarray</span></a> </li>
+<li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=578" title="Implement Your Own sizeof"><span class="wpp-post-title">Implement Your Own sizeof</span></a> </li>
+<li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=680" title="Output of C Programs | Set 3"><span class="wpp-post-title">Output of C Programs | Set 3</span></a> </li>
+</ul><!-- End Wordpress Popular Posts Plugin v1.5.0 -->
+</li>
+<li class="widget widget_recent_entries" id="recent-posts-2"> <h2 class="widgettitle">Recent Posts</h2>
+<ul>
+<li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1937" title="Database Management System | Set 1">Database Management System | Set 1 </a></li>
+<li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1929" title="Operating Systems | Set 3">Operating Systems | Set 3 </a></li>
+<li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1531" title="Operating Systems | Set 2">Operating Systems | Set 2 </a></li>
+<li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1844" title="Given a linked list which is sorted, how will you insert in sorted way">Given a linked list which is sorted, how will you insert in sorted way </a></li>
+<li><a href="https://web.archive.org/web/20090924045725/http://geeksforgeeks.org/?p=1781" title="Given a string, find its first non-repeating character">Given a string, find its first non-repeating character </a></li>
+</ul>
+</li>
+</ul>
+<div class="clear"></div>
+<div id="footer">
+<div class="xhtml">
+			  Valid <a href="https://web.archive.org/web/20090924045725/http://validator.w3.org/check?uri=referer" title="Valid XHTML Strict 1.0">XHTML Strict 1.0</a>
+</div>
+<div class="credits">
+			  Powered by <a href="https://web.archive.org/web/20090924045725/http://wordpress.org/">WordPress </a> &amp; <a href="https://web.archive.org/web/20090924045725/http://mootools.net/" title="Mootools JavaScript Framework">MooTools</a> | MiniMoo 1.3.4</div>
+<div class="clear"></div>
+</div> <!--end footer-->
+</div> <!--end wrapper-->
+<div id="ajaxSpinner"></div> <!--For AJAX spinner holder-->
+</body>
+</html>
+<!--
+     FILE ARCHIVED ON 04:57:25 Sep 24, 2009 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:35:53 Oct 22, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 138.295
+  exclusion.robots: 0.092
+  exclusion.robots.policy: 0.084
+  RedisCDXSource: 0.624
+  esindex: 0.008
+  LoadShardBlock: 68.425 (3)
+  PetaboxLoader3.datanode: 49.407 (4)
+  CDXLines.iter: 27.155 (3)
+  load_resource: 76.263
+  PetaboxLoader3.resolve: 32.768
 -->
